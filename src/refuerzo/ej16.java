@@ -13,6 +13,7 @@ public class ej16 {
         num1 = sc.nextDouble();
         num2 = sc.nextDouble();
         num3 = sc.nextDouble();
+
         mayor = num1;
         if (num2 > mayor){
             mayor = num2;
@@ -21,5 +22,6 @@ if (num3 > mayor){
     mayor = num3;
 }
         System.out.println("El número mayor es: " + mayor);
+
     }
 }
