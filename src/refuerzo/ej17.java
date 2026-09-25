@@ -13,11 +13,9 @@ int num2;
         if(num1 == num2){
             System.out.println("Numeros iguales");
 
-        }
-        if (num1 > num2){
+        }else if (num1 > num2){
             System.out.println("Primer numero es mayor que el segundo numero");
-        }
-        if (num1 < num2){
+        } else{
             System.out.println("Segundo numero es mayor que el primer numero");
         }
     }
