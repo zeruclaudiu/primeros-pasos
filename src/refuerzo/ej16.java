@@ -23,5 +23,12 @@ public class ej16 {
 }
         System.out.println("El número mayor es: " + mayor);
 
+        if (num1 > num2 && num1 > num3){
+            System.out.printf("El maximo es %d", num1);
+
+
+        } else if (num2 > num1 && num2 > num3) {
+
+        }
     }
 }
