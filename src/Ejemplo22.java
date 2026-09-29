@@ -5,15 +5,16 @@ public class Ejemplo22 {
 
         Scanner sc = new Scanner(System.in);
         int positivos = 0;
+        int numero = 0;
         System.out.println("Ecribe 10 numeros");
 
-        for (int y = 0; y < 10; y++){
-            int num = sc.nextInt();
+        for (int y = 0; y < 10; y++){ //para hacer el bucle hasta 10
+             numero = sc.nextInt();
             System.out.println("Escribe otro numero");
-            if (num > 0){
-                positivos++;
+            if (numero >= 0){  //si el numero es mayor k 0 es positivo y se suma 1 a positivos
+                positivos = positivos + 1;
             }
         }
-        System.out.println("Son positivos: " + positivos);
+        System.out.println("Son positivos: " + positivos + "numeros") ;
     }
 }
