@@ -26,10 +26,10 @@ salariobruto = salariobruto + (horas - 35) * preciohora * 1.5;
 
 
  }else if (salariobruto  <= 900 ) {
-     impuestos = (salariobruto - 500 )  * 0.25;
+     impuestos = (salariobruto - 500 )  * 1.25;
 
  }else{
-     impuestos = (400 * 0.25) + (salariobruto - 900)* 0.45;
+     impuestos = (400 * 1.25) + (salariobruto - 900)* 1.45;
 
  }
 
