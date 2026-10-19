@@ -24,4 +24,3 @@ public class ej19 {
 
     }
 }
-9165
